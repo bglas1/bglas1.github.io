@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <style>
+            h1{
+                font-size:31px;
+            }
+            .h1-2{
+                font-size: 19px;
+            }
+            h2{
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Travel reservetion form</h1>
+        <h1 class="h1-2">* denotes mandotory</h2>
+        
+            <form action="/novo-contato" method="post" >
+                <h2>full name *:</h3>
+                <input type="text" name="nome_do_usuario" placeholder="seu nome completo" required/>
+                <h2 class="h2-2">e-mail address *:</h3>
+                <input type="email" name="email_do_usuario" placeholder="seu email" required/>
+                <h2 class=h2-3>Select Tour package *:</h2>
+                <select name="select tour package" required>
+                    <option value="Goa">Goa</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Assam">Assam</option>
+                </select>
+                <h2 class="h2-4">Arrival Date *:</h2>
+                <input type="date" name="m/d/a" placeholder="m/d/a" required>
+                <h2 class="h2-5">Number of people *:</h2>
+                <input type="number" name="numero_de_pessoas" placeholder="digite um numero"
+                min="1" max="9" required/>
+                <h2 class="h2-6">What would you want to avail? *</h2>
+                Boarding 
+                <input type="checkbox" name="tipo" value="Boarding"/> <br>
+                Fooding
+                <input type="checkbox" name="tipo" value="Fooding"/> <br>
+                Sight seeing 
+                <input type="checkbox" name="tipo" value="Sight seeing"/> <br>
+                <h2 class="h2-7">Discount coupon code:</h2>
+                <input type="text" name="codigo_do_cupom" placeholder="digite o codigo" [a-zA-Z] {6}/>
+                <h2 class="h2-8">Terms and conditions *</h2>
+                I agree
+                <input type="radio" name="termo_de_compromisso" value="I agree"/> <br>
+                I disagree
+                <input type="radio" name="termo_de_compromisso" value="I disagree"/> <br>
+                <input type="submit" value="complete reservation"/>  
+               
+            </form>
+    </body> 
+</html>
