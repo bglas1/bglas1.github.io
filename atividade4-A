@@ -4,6 +4,7 @@
     <style>
             p{
                 font-size: 40px;
+                font-family:'Times New Roman', Times, serif;
             }
             ol{
                 font-size: 30px;
@@ -13,6 +14,14 @@
             }
             ul{
                 font-size: 20px;
+                margin: 30px;
+            }
+            ol{
+                margin: 30px;
+            }
+            ul :hover{
+                color: rgb(206, 12, 164);
+                font-size: 30px;
             }
     </style>
 </head>
@@ -24,96 +33,135 @@
             <ol class="ol2">
                 <li>O que é html?</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>  
-                    </ul>
-                <li>Quando foi criado?</li>
-                    <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>HTML (HyperText Markup Language) é uma linguagem de marcação utilizada para estruturar<br>
+                                e apresentar o conteúdo de páginas web. É a base fundamental da web e define a estrutura <br>
+                                e o layout dos elementos em uma página.</li>
+                            <li>Ao escrever código HTML, você define a estrutura do seu documento, indicando onde os elementos devem ser exibidos na página. <br>
+                                Posteriormente, você pode estilizar esses elementos usando CSS e adicionar interatividade por meio de JavaScript.</li>  
                     </ul>
                 <li>Quem criou?</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li> O criador foi um cientista da computação chamado Tim Berners-Lee, em 1990. <br>
+                                 Na época, Berners-Lee trabalhava no CERN (Organização Europeia para a Pesquisa Nuclear) e desenvolveu o HTML</li>
+                            <li>Ele criou o HTML como uma linguagem simples de marcação, permitindo que os documentos fossem <br>
+                                interligados por meio de links (hiperlinks). Com o tempo, o HTML evoluiu e se tornou a base da World Wide Web (WWW)</li>
+                    </ul>
+                <li>Qual o objetivo dessa criação?</li>
+                    <ul>
+                            <li>Tim Berners-Lee criou o HTML com o objetivo de facilitar o compartilhamento de informações e documentos científicos no CERN, onde trabalhava</li>
+                            <li>Ele queria desenvolver uma forma eficiente de interligar documentos por meio de links, <br>
+                                permitindo que os pesquisadores acessassem e compartilhassem informações de maneira mais rápida e fácil.</li>
                     </ul>
             </ol>
                
         <li>Versões</li>
             <ol class="ol3">
-                <li>yy</li>
+                <li>Primeira</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>A primeira versão do HTML foi o HTML 1.0, lançado por Tim Berners-Lee em 1993.</li>
+                            <li>O HTML 1.0 foi bastante simples e limitado em comparação com as versões posteriores. Ele permitia a criação de cabeçalhos, <br>
+                                parágrafos, listas, links e imagens, mas não incluía muitos recursos avançados de formatação e interatividade que temos hoje.</li>
                     </ul>
-                <li>yy</li>
+                <li>Mais famosa</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>A versão mais conhecida e amplamente utilizada do HTML atualmente é o HTML5, lançada em 2014.</li>
+                            <li>O HTML5 inclui novas tags (etiquetas) e atributos que tornam mais fácil a criação de elementos como áudio, vídeo, <br>
+                                gráficos vetoriais, animações e formulários mais avançados. Além disso, <br>
+                                ele oferece suporte a recursos de acessibilidade, como o uso de semântica para tornar o conteúdo mais claro para pessoas com deficiências visuais.</li>
                     </ul>
-                <li>yy</li>
+                <li>Última</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>A última versão do HTML é o HTML5 também. <br>
+                                Embora tenham sido lançadas algumas atualizações menores desde então, como o HTML5.1 e o HTML5.2, <br>
+                                elas foram consideradas extensões e aprimoramentos do HTML5 original</li>
+                            <li>O HTML5 é amplamente suportado pelos navegadores modernos e continua sendo <br>
+                                a versão mais atual e recomendada para o desenvolvimento de páginas web.</li>
                     </ul>
             </ol>
 
 
-        <li>Pra que serve o html?</li>
+        <li>Linguagens de programação usadas no html</li>
             <ol class="ol4">
-                <li>yy</li>
+                <li>CSS</li>
                      <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>Cascading Style Sheets</li>
+                            <li>é usada para estilizar a aparência dos elementos na página, definindo cores, <br>
+                                fontes, tamanhos, margens, posicionamento e outros atributos visuais</li>
                     </ul>
-                <li>yy</li>
+                <li>JavaScript</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>JavaScript</li>
+                            <li>é usada para adicionar interatividade às páginas, permitindo que os elementos na página <br>
+                                respondam a eventos do usuário, como cliques, rolagem e digitação</li>
                     </ul>
-                <li>yy</li>
+                <li>PHP</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>Hypertext Preprocessor</li>
+                            <li>é usada para criar páginas dinâmicas que podem se comunicar com bancos de dados e gerar conteúdo personalizado para cada usuário.</li>
+                    </ul>                   
+                <li>SQL</li>
+                    <ul>
+                            <li>Structured Query Language</li>
+                            <li>é usada em conjunto com o PHP para acessar e manipular bancos de dados.</li>
                     </ul>
             </ol>
 
-        <li>xxx</li>
+        <li>Onde usar o html?</li>
             <ol class="ol5">
-                <li>yy</li>
+                <li>Sublime Text</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>O Sublime Text é um editor de texto avançado usado para escrever código em várias linguagens de programação, <br> 
+                                incluindo HTML, CSS, JavaScript e PHP. Ele é conhecido por ser rápido, leve e altamente personalizável, <br>
+                                com recursos como realce de sintaxe, autocompletar, indentação automática e busca e substituição avançadas.</li>
+                            <li>O Sublime Text também oferece suporte a plug-ins e pacotes adicionais que podem ser instalados <br>
+                                para adicionar recursos adicionais ao editor. Ele está disponível para Windows, <br>
+                                Mac e Linux e é amplamente utilizado por desenvolvedores em todo o mundo.</li>
                     </ul>
-                <li>yy</li>
+                <li>Visual Studio Code</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>O Visual Studio Code é um editor de código fonte desenvolvido pela Microsoft. <br>
+                                Ele é amplamente utilizado por programadores devido à sua interface intuitiva, recursos poderosos e extensibilidade.</li>
+                            <li>Um dos principais atrativos do Visual Studio Code é a sua enorme biblioteca de extensões, <br>
+                                que permite aos usuários personalizarem e estender as funcionalidades do editor de acordo com suas necessidades. <br>
+                                 Além disso, o Visual Studio Code é multiplataforma e está disponível para Windows, Mac e Linux.
+                            </li>
                     </ul>
-                <li>yy</li>
+                <li>Atom</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>O Atom é um editor de código fonte gratuito e de código aberto desenvolvido pela equipe do GitHub. <br>
+                                Ele é conhecido por sua flexibilidade, personalização e comunidade ativa.</li>
+                            <li>Uma das principais características do Atom é a sua arquitetura baseada em pacotes, <br>
+                                o que significa que os usuários podem estender e personalizar o editor através da instalação de pacotes adicionais. <br>
+                                Isso permite que os desenvolvedores personalizem o ambiente de desenvolvimento de acordo com suas preferências e necessidades específicas.</li>
                     </ul>
             </ol>
 
 
-        <li>xxx</li>
+        <li>Criações mais famosas utilizando html</li>
             <ol class="ol6">
-                <li>yy</li>
+                <li>Aplicativos</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>Uber: O aplicativo de compartilhamento de viagens mais popular do mundo foi criado usando <br> 
+                                HTML, CSS e JavaScript para a interface do usuário, enquanto o back-end é construído em outras linguagens de programação.</li>
+                            <li> Netflix: O serviço de streaming de vídeo mais popular do mundo também usa HTML, <br>
+                                CSS e JavaScript para a interface do usuário do site e aplicativo, permitindo que os usuários <br>
+                                naveguem pelos títulos, assistam a trailers e gerenciem suas contas.</li>
                     </ul>
-                <li>yy</li>
+                <li>Sites</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>Google (www.google.com): O motor de busca mais utilizado no mundo foi desenvolvido inicialmente usando HTML como parte da sua estrutura. <br>
+                                Embora tenha evoluído ao longo dos anos, a base do site ainda é construída com HTML.
+                            </li>
+                            <li>Facebook (www.facebook.com): A maior rede social do mundo também foi criada usando HTML como parte fundamental do seu desenvolvimento. <br>
+                                O HTML é usado para estruturar e exibir o conteúdo, enquanto outras tecnologias e <br> 
+                                inguagens são utilizadas para adicionar recursos e funcionalidades adicionais.</li>
                     </ul>
-                <li>yy</li>
+                <li>Páginas Web</li>
                     <ul>
-                            <li>z</li>
-                            <li>z</li>
+                            <li>Wikipedia (www.wikipedia.org): A conhecida enciclopédia online é construída principalmente usando HTML. <br>
+                                A estrutura das páginas, o conteúdo e os links são todos formatados e exibidos através do HTML.</li>
+                            <li>Amazon (www.amazon.com): Um dos maiores sites de comércio eletrônico do mundo, a Amazon, também utiliza HTML como parte fundamental da sua construção. <br>
+                                O HTML é responsável por organizar e exibir os produtos, as informações do carrinho de compras e as diferentes seções do site.</li>
                     </ul>
             </ol>
     </ol>
