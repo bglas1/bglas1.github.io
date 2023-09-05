@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+            p{
+                font-size: 40px;
+            }
+            ol{
+                font-size: 30px;
+            }
+            .ol2, .ol3, .ol4, .ol5, .ol6{
+                font-size: 25px;
+            }
+            ul{
+                font-size: 20px;
+            }
+    </style>
+</head>
+
+<body>
+    <p>HTML</p>
+    <ol>
+        <li>Introdução</li>
+            <ol class="ol2">
+                <li>O que é html?</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>  
+                    </ul>
+                <li>Quando foi criado?</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>Quem criou?</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+            </ol>
+               
+        <li>Versões</li>
+            <ol class="ol3">
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+            </ol>
+
+
+        <li>Pra que serve o html?</li>
+            <ol class="ol4">
+                <li>yy</li>
+                     <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+            </ol>
+
+        <li>xxx</li>
+            <ol class="ol5">
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+            </ol>
+
+
+        <li>xxx</li>
+            <ol class="ol6">
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+                <li>yy</li>
+                    <ul>
+                            <li>z</li>
+                            <li>z</li>
+                    </ul>
+            </ol>
+    </ol>
+</body>
+</html>
