@@ -1,10 +1,16 @@
 <html>
 <head>
     <style>
-        th, td{
-           border: 1px solid;
+        label{
+            font-family: georgia;
+            font-size: 14px;
         }
-
+        button{
+            background-color: rgb(255, 231, 231);
+            margin-bottom: 2px;
+            margin-left: 15px;
+        }
+        
     </style>
 </head>
 
@@ -12,16 +18,32 @@
     <table>
 
         <tr>
-            <th height="250px">coluna1</th>
-            <th>coluna2</th>
+            <td height="45px">
+                <label>Matrícula:</label>
+                <input type="text">
+
+            </td>
+            <td>
+                <button>Salvar</button>
+                <br>
+                <button>Atualizar</button>
+                <br>
+                <button>Excluir</button>
+                <br>
+                <button>Voltar</button>
+            </td>
         </tr>
         <tr height="45px">
-            <td TextBlock="" TextBox="" >linha2 coluna1</td>
-            <td>linha2 coluna2</td>
+            <td>
+                <label>Nome:</label>
+                <input type="text">
+            </td>
         </tr>
         <tr height="45px">
-            <td>linha3 coluna1</td>
-            <td>linha3 coluna2</td>
+            <td>
+                <label>E-mail:</label>
+                <input type="email">
+            </td>
         </tr>
 
     </table>
