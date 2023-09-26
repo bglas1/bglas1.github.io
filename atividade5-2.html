@@ -1,27 +1,35 @@
 <html>
 <head>
     <style>
-        label{
+        h1{
             font-family: georgia;
             font-size: 14px;
         }
         button{
-            background-color: rgb(255, 231, 231);
+            background-color: rgb(204, 250, 248);
             margin-bottom: 2px;
             margin-left: 15px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 30px;
+            padding-right: 30px;
         }
         
     </style>
 </head>
 
 <body>
+
     <table>
-
         <tr>
-            <td height="45px">
-                <label>Matrícula:</label>
-                <input type="text">
-
+            <td>
+                <form>
+                    <h1>Matrícula:</h1>
+                        <input type="text" required/> 
+                    <h1 class="h1-2">Nome:</h1>         
+                        <input type="text" required/>   
+                    <h1 class=h1-3>E-mail:</h1>
+                        <input type="email" required/> 
             </td>
             <td>
                 <button>Salvar</button>
@@ -30,22 +38,13 @@
                 <br>
                 <button>Excluir</button>
                 <br>
-                <button>Voltar</button>
+                <button>Excluir</button>
             </td>
         </tr>
-        <tr height="45px">
-            <td>
-                <label>Nome:</label>
-                <input type="text">
-            </td>
-        </tr>
-        <tr height="45px">
-            <td>
-                <label>E-mail:</label>
-                <input type="email">
-            </td>
-        </tr>
-
     </table>
+     
+                                                            
+    </form>
+   
 </body>
 </html>
