@@ -1,2 +1,70 @@
-bglas1.github.io
-/atividade6-2.html
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <style>
+           div{
+            padding: 30px;
+            padding-top:20px;
+            background-color:pink;
+           }
+           .form{
+            padding: 7px;
+            background-color: white;
+           }
+           h1{
+            text-align: center;
+           }
+           h2{
+            font-size: 17px;
+           }
+           p{
+            text-align: center;
+           }
+           button{
+            border: none;
+            padding: 4px;
+           }
+           
+        </style>
+    </head>
+    <body>
+        <div>
+        <h1>Survey Form</h1>
+            <div class="form">
+                <form>
+                    <p>Let us know how we can improve FreeCodeCamp</p>
+                    <h2>Name: *</h3>
+                        <input type="text" name="nome_do_usuario" placeholder="enter your name" required/>
+                    <h2 class="h2-2">E-mail: *</h3>
+                        <input type="email" name="email_do_usuario" placeholder="enter your e-mail" required/>
+                    <h2 class=h2-3>Age: *</h2>
+                        <input type="number" name="idade" placeholder="age" required/>
+                    <h2 class=h2-4>Which option best describes your current role?</h2>
+                        <select name="Which option best describes your current role?">
+                        <option value="Student">Student</option>
+                        <option value="Unemployed">Unemployed</option>
+                        <option value="Self-Employed">Self-Employed</option>
+                        <option value="Employee">Employee</option>
+                        </select>
+                    <h2 class="h2-5">How likely is that you would recommend FreeCodeCamp to a friend? *</h2>
+                        <button>Definitely</button>
+                        <br>
+                        <button>Maybe</button>
+                        <br>
+                        <button>Not sure</button>
+                    <h2 class="h2-6">What do you like most in FCC? *</h2>
+                        <select name="What do you like most in FCC?">
+                        <option value="Select an option">Select an option</option>>
+                        </select>
+                    <h2 class="h2-7">Things that should be improved in the future (Check all that apply): </h2>
+                        <button>Front-End Projects</button>
+                        <br>
+                        <button>Back-End Projects</button>
+                        <br>
+                        <button>Data visualization</button>                 
+                </form>
+            </div>
+        </div>
+    </body> 
+</html>
